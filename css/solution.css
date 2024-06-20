@@ -38,3 +38,7 @@
 }
 .ex-5-square:active {
     transform: scale(.3);}
+
+/*SESTO ESERCIZIO*/
+.ex-6-img:hover {
+    filter: grayscale(1);}

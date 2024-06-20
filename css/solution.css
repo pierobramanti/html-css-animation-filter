@@ -60,5 +60,17 @@
     transition: 2s;
 }
 .ex-7-img:hover {
-    filter: hue-rotate(50deg) drop-shadow(2px 2px 10px #bb1313);;
+    filter: hue-rotate(50deg) drop-shadow(2px 2px 10px #bb1313);
 }
+
+/*OTTAVO ESERCIZIO*/
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: grayscale(50%) drop-shadow( 2px 2px 20px #6b0c83);
+    border-radius: 20px;
+
+}
+

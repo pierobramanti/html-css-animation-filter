@@ -86,7 +86,6 @@
 
 /*DECIMO ESERCIZIO*/
 
-/* Exercise 10 */
 .ex-10-icon {
     animation: counterclockwise 1.5s linear infinite;
 }
@@ -108,4 +107,19 @@
     }
 }
 
+/*UNDICESIMO ESERCIZIO*/
 
+.ex-11-icon:hover {
+    animation: clockwise 1.5s linear infinite;
+}
+@keyframes clockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

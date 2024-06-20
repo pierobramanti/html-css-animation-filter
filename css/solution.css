@@ -21,9 +21,20 @@
 }
 .ex-3-square:hover {
     border-radius: 100%;}
+
 /*QUARTO ESERCIZIO*/
 .ex-4-square {
     transition: 2s;
     }
 .ex-4-square:hover { 
     opacity: 0;}
+
+/*QUINTO ESERCIZIO*/
+.ex-5-square {
+    transition: 1s;
+}
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(.3);}

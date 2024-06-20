@@ -1,0 +1,8 @@
+/*PRIMO ESERCIZIO*/
+
+.ex-1-square {
+    transition: 1s;
+}
+.ex-1-square:hover {
+    background: red;
+}

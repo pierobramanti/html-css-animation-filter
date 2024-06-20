@@ -37,12 +37,10 @@
     transition: 1s;
 }
 .ex-5-square:hover {
-    width: 80px;
-    height: 80px;
+    transform: scale(2);
 }
 .ex-5-square:active {
-    width: 40px;
-    height: 40px;
+    transform: scale(0.2);
 }
 
 /*SESTO ESERCIZIO*/
@@ -70,7 +68,19 @@
 }
 .ex-8-img:hover {
     filter: grayscale(50%) drop-shadow( 2px 2px 20px #6b0c83);
-    border-radius: 20px;
+    border-radius: 30px;
 
+}
+
+/*NONO ESERCIZIO*/
+
+.ex-9-img {
+    transition: 2s; 
+}
+
+.ex-9-img:hover{
+    filter: blur(10px) drop-shadow(0 0 5px black);
+    border-radius: 20px;
+    transform: scale(1.5);
 }
 
